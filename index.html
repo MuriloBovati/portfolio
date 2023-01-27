@@ -10,15 +10,17 @@
 <body>
     <main>
         <header>
-            <nav>
+            <div class="container-top">
                 <span class="minha-logo">_MB_</span>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Experiencia</a></li>
-                    <li><a href="#">Projetos</a></li>
-                </ul>
-            </nav>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Experiencia</a></li>
+                        <li><a href="#">Projetos</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <section class="conteiner-home">
@@ -26,7 +28,7 @@
                 <div class="apresenta-home">
                     <h1>Olá, Eu sou </h1>
                     <p class="meu-nome">Murilo Silva Bovati</p>
-                    <p>Desenvolvedor Full Stack</p>
+                    <p class="vaga">Desenvolvedor Full Stack</p>
                     <div class="links">
                         <a href="https://www.linkedin.com/in/murilo-silva-bovati-baa645195/" target="_blank">
                             <div class="button-link linkedin">
@@ -42,16 +44,28 @@
                             </div>
                         </a>
                     </div>
-                
                 </div>
                 <img class="img-programa" src="img/imagem1.webp" alt="">
             </div>
         </section>
 
         <section class="conteiner-sobre">
-            <h1>Sobre min</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi, veritatis nisi ducimus sed quod pariatur, et doloremque magni iure sapiente exercitationem totam aliquid sit repellat asperiores, dolores saepe consectetur facilis?</p>
-            <button>Download CV</button>
+            <div class="conteudo-sobre">
+                <img class="minha-foto" src="img/fotominha.png" alt="foto de perfil">
+                <div class="conteiner-imagem-sobre">
+                    <h1>Sobre min</h1>
+                    <div class="sobremin">
+                        <p>Sou o Murilo, tenho 28 anos e estudo análise de desenvolvimento de sistemas. Tenho formação técnica em mecatrônica e trabalhei cerca de 5 anos com atendimento ao público.</p>
+                    
+                        <p>No ano de 2019 abri minha própria empresa focada em impressões 3D, desenvolvi conhecimentos em modelagem, manutenção, fidelização de clientes e finanças. Infelizmente, com a pandemia precisei fechar as portas, no entanto, adquiri interesses na área de programação e me aprofundei em: back- end, front-end, HTML, CSS, SQL entre outros.</p>
+                    
+                        <p>Tenho como objetivo ingressar no mercado de trabalho como desenvolvedor. Busco empresas que almejem desenvolver soluções eficazes para grandes e pequenos </p>
+                    </div>
+                    <div class="container-button-curriculo">
+                        <button class="botao-curriculo">Download CV</button>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="conteiner-experiencia">
