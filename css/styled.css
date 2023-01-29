@@ -12,6 +12,20 @@
     color: white;
 }
 
+::-webkit-scrollbar-track {
+    background-color:#151515 ;
+    border-radius: 3px;
+}
+::-webkit-scrollbar {
+    width: 13px;
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: #5F4783;
+    box-shadow: 0px 0px 10px #b284f8;
+    border-radius: 10px;
+}
+
 body{
     background-color: #0A1817;
 }
@@ -78,8 +92,8 @@ a{
     /* font-family: '8-bit', Courier, monospace; */
     font-size: 2.5em;
     margin: 30px 0px;
-    color: rgb(30, 182, 30);
-    text-shadow: 0px 0px 1px black;
+    color: #68a7e6;
+    text-shadow: 0px 0px 10px black;
 }
 
 .vaga{
@@ -308,7 +322,6 @@ a{
     height: 380px;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px #b284f8;
     margin: 10px 5px;
 }
 
@@ -328,7 +341,9 @@ a{
 }
 
 .titulo-projeto{
+    color: #68a7e6;
     margin-bottom: 5px;
+    text-shadow: 0px 0px 5px black;
 }
 
 .sobre-projeto{
@@ -368,7 +383,22 @@ footer{
 }
 
 /* animaçoes */
-/* Home */
+
+.entrada{
+    animation-name: entrada;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.pipe{
+    z-index: -1;
+    color: #68a7e6;;
+    font-size: 2.8em;
+    animation: pisca-Pipe;
+    animation-duration: .8s;
+    animation-iteration-count: infinite;
+}
+
 @keyframes pisca-github {
     0%{
         box-shadow: 0px 0px 10px #b284f8;
@@ -396,6 +426,24 @@ footer{
         box-shadow: 0px 0px 10px #71b5f8;
     }
 }
+
+@keyframes entrada{
+    0%{
+        transform: rotateX(90deg);
+    }
+}
+
+/* @keyframes pisca-Pipe{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+} */
 
 /* mediaQuery Responsividade */
 
