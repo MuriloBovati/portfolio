@@ -14,10 +14,10 @@
                 <span class="minha-logo">_MB_</span>
                 <nav>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Experiencia</a></li>
-                        <li><a href="#">Projetos</a></li>
+                        <li><a class="link-nav" href="#">Home</a></li>
+                        <li><a class="link-nav" href="#">Sobre</a></li>
+                        <li><a class="link-nav" href="#">Experiencia</a></li>
+                        <li><a class="link-nav" href="#">Projetos</a></li>
                     </ul>
                 </nav>
             </div>
@@ -59,8 +59,10 @@
 
         <section class="conteiner-sobre">
             <div class="conteudo-sobre">
-                <img class="minha-foto" src="img/fotominha.png" alt="foto de perfil">
                 <div class="conteiner-imagem-sobre">
+                    <img class="minha-foto" src="img/fotominha.png" alt="foto de perfil">
+                </div>
+                <div>
                     <h1 class="titulo">Sobre min</h1>
                     <div class="sobremin">
                         <p>Sou o Murilo, tenho 28 anos e estudo análise de desenvolvimento de sistemas. Tenho formação técnica em mecatrônica e trabalhei cerca de 5 anos com atendimento ao público.</p>
@@ -70,7 +72,11 @@
                         <p>Tenho como objetivo ingressar no mercado de trabalho como desenvolvedor. Busco empresas que almejem desenvolver soluções eficazes para grandes e pequenos </p>
                     </div>
                     <div class="container-button-curriculo">
-                        <button class="botao-curriculo">Download CV</button>
+                        <a href="public/Curriculo 2023.pdf" target="_blank">
+                            <button class="botao-curriculo">
+                                <img class="icon-curriculo" src="img/icons8-download-da-nuvem-100.png" alt="">Curriculo
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -80,9 +86,11 @@
             <div class="conteudo-experiencia">
                 <div class="container-button-experiencia">
                     <h1 class="titulo">Experiencia</h1>
-                    <button class="button-experiencia">Atual</button>
-                    <button class="button-experiencia">Minha Empresa</button>
-                    <Button class="button-experiencia">Trabalhos Anteriores</Button>
+                    <div class="buttons">
+                        <button class="button-experiencia">Atual</button>
+                        <button class="button-experiencia">Minha Empresa</button>
+                        <Button class="button-experiencia">Trabalhos Anteriores</Button>
+                    </div>
                 </div>
                 <div class="resp-experiencia">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, sint itaque iste placeat error quae quas expedita numquam velit reiciendis. Sapiente odio corporis ipsa saepe, mollitia adipisci qui ex illum?</p>
@@ -93,89 +101,100 @@
         <section class="container-projetos">
             <div class="conteudo-projetos">
                 <h1 class="titulo">Projetos</h1>
-
                 <div class="todos-projetos">
                     <div class="projeto">
-                        <h1>Nome do projeto</h1>
-                            <p>Imagem do projeto</p>
-                            <p>breve explicação do projeto</p>
-                            <div class="icon-tec">
-                                <p>tecnologias utilizadas</p>
-                            </div>
-                            <div class="projeto-links">
-                                <p>link Site</p>
-                                <p>link repositorio</p>
-                            </div>
+                        <h1 class="titulo-projeto">React Flix</h1>
+                        <div class="container-img-projeto">
+                            <img class="img-projeto" src="img/Pagina React Flix.png" alt="Imagem da pagina inicial do projeto react flix">
+                        </div>
+                        <p class="sobre-projeto">Clone do NETFLIX em REACTJS consumindo uma API do TMDB projeto realizado como estudo</p>
+                        <div class="projeto-links">
+                            <a href="https://murilobovati.github.io/reactFlixBuild/" target="_blank">
+                                <div class="button-link linkedin">
+                                    <img class="img-icons" src="img/icons8-página-inicial-96.png" alt="icone do home click para ir para Home">
+                                    <p>Acessar</p>
+                                </div>
+                            </a>
+                            <a href="https://github.com/MuriloBovati/ReactFlix" target="_blank">
+                                <div class="button-link linkedin">
+                                    <img class="img-icons" src="img/icons8-github-2-250.png" alt="imagem do gato do git hub, click para ir para o repositorio do projeto">
+                                    <p>Github</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
                     <div class="projeto">
-                        <h1>Nome do projeto</h1>
-                            <p>Imagem do projeto</p>
-                            <p>breve explicação do projeto</p>
-                            <div class="icon-tec">
-                                <p>tecnologias utilizadas</p>
-                            </div>
-                            <div class="projeto-links">
-                                <p>link Site</p>
-                                <p>link repositorio</p>
-                            </div>
+                        <h1 class="titulo-projeto">Jogo da velha</h1>
+                        <div class="container-img-projeto">
+                            <img class="img-projeto" src="img/jogo-da-velha.png" alt="Imagem da pagina inicial do projeto react flix">
+                        </div>
+                        <p class="sobre-projeto">Jogo da velha, meu primeiro projeto que fiz utilizando apenas HTML CSS e Javascript puro</p>
+                        <div class="projeto-links">
+                            <a href="https://murilobovati.github.io/Jogo-da-velha/" target="_blank">
+                                <div class="button-link linkedin">
+                                    <img class="img-icons" src="img/icons8-página-inicial-96.png" alt="icone do home click para ir para Home do projeto">
+                                    <p>Acessar</p>
+                                </div>
+                            </a>
+                            <a href="https://github.com/MuriloBovati/Jogo-da-velha" target="_blank">
+                                <div class="button-link linkedin">
+                                    <img class="img-icons" src="img/icons8-github-2-250.png" alt="imagem do gato do git hub, click para ir para o repositorio do projeto">
+                                    <p>Github</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
                     <div class="projeto">
-                        <h1>Nome do projeto</h1>
-                            <p>Imagem do projeto</p>
-                            <p>breve explicação do projeto</p>
-                            <div class="icon-tec">
-                                <p>tecnologias utilizadas</p>
-                            </div>
-                            <div class="projeto-links">
-                                <p>link Site</p>
-                                <p>link repositorio</p>
-                            </div>
-                    </div>
-                </div>
-                <div class="todos-projetos">
-                    <div class="projeto">
-                        <h1>Nome do projeto</h1>
-                            <p>Imagem do projeto</p>
-                            <p>breve explicação do projeto</p>
-                            <div class="icon-tec">
-                                <p>tecnologias utilizadas</p>
-                            </div>
-                            <div class="projeto-links">
-                                <p>link Site</p>
-                                <p>link repositorio</p>
-                            </div>
-                    </div>
-
-                    <div class="projeto">
-                        <h1>Nome do projeto</h1>
-                            <p>Imagem do projeto</p>
-                            <p>breve explicação do projeto</p>
-                            <div class="icon-tec">
-                                <p>tecnologias utilizadas</p>
-                            </div>
-                            <div class="projeto-links">
-                                <p>link Site</p>
-                                <p>link repositorio</p>
-                            </div>
-                    </div>
-
-                    <div class="projeto">
-                        <h1>Nome do projeto</h1>
-                            <p>Imagem do projeto</p>
-                            <p>breve explicação do projeto</p>
-                            <div class="icon-tec">
-                                <p>tecnologias utilizadas</p>
-                            </div>
-                            <div class="projeto-links">
-                                <p>link Site</p>
-                                <p>link repositorio</p>
-                            </div>
+                        <h1 class="titulo-projeto">SCRiPTy</h1>
+                        <div class="container-img-projeto">
+                            <img class="img-projeto" src="img/SCRiPTy.png" alt="Imagem da pagina inicial do projeto react flix">
+                        </div>
+                        <p class="sobre-projeto">Projeto proposto no final da primeira trilha ONE(Alura + Oracle) Cryptografar e Descriptografar texto.</p>
+                        <div class="projeto-links">
+                            <a href="https://murilobovati.github.io/Decode-Encode/" target="_blank">
+                                <div class="button-link linkedin">
+                                    <img class="img-icons" src="img/icons8-página-inicial-96.png" alt="icone do home click para ir para Home">
+                                    <p>Acessar</p>
+                                </div>
+                            </a>
+                            <a href="https://github.com/MuriloBovati/Decode-Encode" target="_blank">
+                                <div class="button-link linkedin">
+                                    <img class="img-icons" src="img/icons8-github-2-250.png" alt="imagem do gato do git hub, click para ir para o repositorio do projeto">
+                                    <p>Github</p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <footer>
+            <div class="conteudo-footer">
+                <span class="minha-logo">_MB_</span>
+                <div>
+                    <p class="direitos">2023 Portifolio Murilo Silva Bovati - alguns diretos reservados</p>
+                </div>
+                <div class="container-links-footer">
+                    <h1 class="titulo-footer">Contatos</h1>
+                    <div>
+                        <a target="_blank" href="https://github.com/MuriloBovati" alt="">
+                            <img class="footer-icons" src="img/icons8-github-2-250.png" alt="">
+                        </a>
+                        <a target="_blank"
+                            href="https://www.linkedin.com/in/murilo-silva-bovati-baa645195/">
+                            <img class="footer-icons" src="img/icons8-linkedin-2-250.png" alt="">
+                        </a>
+                        <a target="_blank" href="murilo_bovati@hotmai.com">
+                            <img class="footer-icons" src="img/icons8-mensagem-90.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
+    <script src="./code/main.js"></script>
 </body>
 </html>
