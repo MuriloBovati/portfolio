@@ -75,9 +75,11 @@ a{
 }
 
 .meu-nome{
+    /* font-family: '8-bit', Courier, monospace; */
     font-size: 2.5em;
     margin: 30px 0px;
     color: rgb(30, 182, 30);
+    text-shadow: 0px 0px 1px black;
 }
 
 .vaga{
@@ -264,6 +266,10 @@ a{
     background-color: #5F4783;
 }
 
+.titulo-experiencia{
+    margin-bottom: 10px;
+}
+
 /*                             projetos                                      */
 
 .container-projetos{
@@ -400,9 +406,12 @@ footer{
 
     .minha-logo{
         display: block;
+        text-align: center;
     }
 
     ul{
+        display: flex;
+        justify-content: center;
         margin-top: 10px;
     }
 
