@@ -4,6 +4,7 @@
 <a href=https://murilobovati.github.io/portfolio target="_blank"> Acessar </a>
 
 
+
 ## Layout Mobile
 ![Tela inicial mobile](https://user-images.githubusercontent.com/93354240/224235281-b9ef4e14-436c-4eec-afb2-d0ecb23d1ddb.png)
 
@@ -19,3 +20,5 @@
 - JavaScript
 
 # Autor
+- Murilo Silva Bovati <a href=https://murilobovati.github.io/portfolio target="_blank"> Acessar </a>
+- Linkedin <a href=https://www.linkedin.com/in/murilo-silva-bovati-baa645195 target="_blank"> Acessar </a>
